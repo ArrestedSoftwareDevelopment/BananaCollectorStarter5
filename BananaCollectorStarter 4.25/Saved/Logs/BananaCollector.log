@@ -1,8 +1,8 @@
-﻿Log file open, 01/26/21 13:16:28
+﻿Log file open, 01/27/21 11:07:16
 LogInit: Display: Running engine for game: BananaCollector
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.239549
+LogStats: Stats thread started at 8.180430
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -194,762 +194,695 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
-[2021.01.26-19.16.28:953][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.01.26-19.16.28:953][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
-[2021.01.26-19.16.28:953][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
-[2021.01.26-19.16.28:960][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.01.26-19.16.28:960][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.01.26-19.16.28:961][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.01.26-19.16.28:962][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.26-19.16.28:962][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.01.26-19.16.28:962][  0]LogHAL: Display: Platform has ~ 8 GB [8347623424 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.01.26-19.16.28:962][  0]LogInit: Going up to parent DeviceProfile []
-[2021.01.26-19.16.28:962][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.01.26-19.16.28:962][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.01.26-19.16.28:963][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
-[2021.01.26-19.16.28:963][  0]LogInit: Computer: LAPTOP-VSCMJV9G
-[2021.01.26-19.16.28:963][  0]LogInit: User: colla
-[2021.01.26-19.16.28:963][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.01.26-19.16.28:963][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.01.26-19.16.28:964][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
-[2021.01.26-19.16.28:964][  0]LogMemory: Platform Memory Stats for Windows
-[2021.01.26-19.16.28:964][  0]LogMemory: Process Physical Memory: 114.99 MB used, 115.00 MB peak
-[2021.01.26-19.16.28:964][  0]LogMemory: Process Virtual Memory: 110.47 MB used, 110.47 MB peak
-[2021.01.26-19.16.28:964][  0]LogMemory: Physical Memory: 5036.63 MB used,  2924.28 MB free, 7960.91 MB total
-[2021.01.26-19.16.28:964][  0]LogMemory: Virtual Memory: 5157.71 MB used,  134212568.00 MB free, 134217728.00 MB total
-[2021.01.26-19.16.28:968][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.01.26-19.16.28:997][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.01.26-19.16.28:998][  0]LogInit: Using OS detected language (en-US).
-[2021.01.26-19.16.28:998][  0]LogInit: Using OS detected locale (en-US).
-[2021.01.26-19.16.29:003][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2021.01.26-19.16.29:161][  0]LogInit: Setting process to per monitor DPI aware
-[2021.01.26-19.16.29:209][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.01.26-19.16.29:209][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.01.26-19.16.29:334][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.26-19.16.29:334][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.01.26-19.16.29:334][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.01.26-19.16.29:334][  0]LogD3D11RHI: D3D11 adapters:
-[2021.01.26-19.16.29:407][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics' (Feature Level 11_0)
-[2021.01.26-19.16.29:407][  0]LogD3D11RHI:       128/0/3980 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
-[2021.01.26-19.16.29:409][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.01.26-19.16.29:409][  0]LogD3D11RHI:       0/0/3980 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.01.26-19.16.29:409][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.01.26-19.16.29:416][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.01.26-19.16.29:416][  0]LogD3D11RHI:     GPU DeviceId: 0x8a56 (for the marketing name, search the web for "GPU Device Id")
-[2021.01.26-19.16.29:416][  0]LogWindows: EnumDisplayDevices:
-[2021.01.26-19.16.29:416][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
-[2021.01.26-19.16.29:416][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:1)
-[2021.01.26-19.16.29:417][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
-[2021.01.26-19.16.29:417][  0]LogWindows:    3. 'Intel(R) UHD Graphics' (P:0 D:0)
-[2021.01.26-19.16.29:417][  0]LogWindows:    4. 'Intel(R) UHD Graphics' (P:0 D:0)
-[2021.01.26-19.16.29:417][  0]LogWindows:    5. 'Intel(R) UHD Graphics' (P:0 D:0)
-[2021.01.26-19.16.29:417][  0]LogWindows:    6. 'Intel(R) UHD Graphics' (P:0 D:0)
-[2021.01.26-19.16.29:418][  0]LogWindows:    7. 'Intel(R) UHD Graphics' (P:0 D:0)
-[2021.01.26-19.16.29:418][  0]LogWindows: DebugString: FoundDriverCount:8 
-[2021.01.26-19.16.29:418][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics
-[2021.01.26-19.16.29:418][  0]LogD3D11RHI:   Driver Version: 26.20.100.7985 (internal:26.20.100.7985, unified:26.20.100.7985)
-[2021.01.26-19.16.29:418][  0]LogD3D11RHI:      Driver Date: 3-9-2020
-[2021.01.26-19.16.29:418][  0]LogRHI: Texture pool is 1482 MB (70% of 2118 MB)
-[2021.01.26-19.16.29:480][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2021.01.26-19.16.29:481][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
-[2021.01.26-19.16.29:481][  0]LogD3D11RHI: Async texture creation enabled
-[2021.01.26-19.16.29:481][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.01.26-19.16.29:497][  0]LogD3D11RHI: GPU Timing Frequency: 19.200000 (Debug: 2 0)
-[2021.01.26-19.16.29:790][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.01.26-19.16.29:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.01.26-19.16.29:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.01.26-19.16.29:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.01.26-19.16.29:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.01.26-19.16.29:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.01.26-19.16.29:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.01.26-19.16.29:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.01.26-19.16.29:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.01.26-19.16.29:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.01.26-19.16.29:809][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.01.26-19.16.29:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.01.26-19.16.29:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.01.26-19.16.29:841][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.01.26-19.16.29:851][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.01.26-19.16.29:859][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.01.26-19.16.29:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.01.26-19.16.29:876][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.01.26-19.16.29:887][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.01.26-19.16.29:895][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.01.26-19.16.29:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.01.26-19.16.29:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.01.26-19.16.29:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.01.26-19.16.29:937][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.01.26-19.16.29:945][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.01.26-19.16.29:956][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.01.26-19.16.29:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.01.26-19.16.29:974][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.01.26-19.16.29:974][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.01.26-19.16.29:982][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.01.26-19.16.30:039][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Intermediate/Shaders/WorkingDirectory/1320/).
-[2021.01.26-19.16.30:039][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/colla/AppData/Local/Temp/UnrealShaderWorkingDir/44A215634EF75E1682752B977B18560A/'.
-[2021.01.26-19.16.30:039][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.01.26-19.16.30:040][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.01.26-19.16.30:040][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.01.26-19.16.30:804][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.01.26-19.16.30:852][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/colla/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.01.26-19.16.30:852][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/colla/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.01.26-19.16.30:852][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.01.26-19.16.30:852][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.01.26-19.16.30:852][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.26-19.16.30:852][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.01.26-19.16.30:862][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.01.26-19.16.30:862][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.26-19.16.30:862][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.01.26-19.16.30:864][  0]LogDerivedDataCache: Using Local data cache path C:/Users/colla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.01.26-19.16.30:864][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.01.26-19.16.30:864][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.01.26-19.16.30:915][  0]LogSlate: Using FreeType 2.10.0
-[2021.01.26-19.16.30:915][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.01.26-19.16.30:940][  0]LogAssetRegistry: FAssetRegistry took 0.0027 seconds to start up
-[2021.01.26-19.16.31:139][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.26-19.16.31:259][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.01.26-19.16.31:259][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.01.26-19.16.31:259][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.01.26-19.16.31:259][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.01.26-19.16.31:259][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.01.26-19.16.31:281][  0]LogNetVersion: BananaCollector 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 807415613)
-[2021.01.26-19.16.31:693][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000022371DDC280), frame # 0
-[2021.01.26-19.16.31:693][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022371D151C0), frame # 0
-[2021.01.26-19.16.31:695][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022371D69E00), frame # 0
-[2021.01.26-19.16.31:792][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.090920 seconds
-[2021.01.26-19.16.31:797][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.01.26-19.16.31:797][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.01.26-19.16.31:797][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.01.26-19.16.32:136][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.01.26-19.16.32:140][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.01.26-19.16.32:223][  0]SourceControl: Source control is disabled
-[2021.01.26-19.16.32:223][  0]SourceControl: Source control is disabled
-[2021.01.26-19.16.32:226][  0]SourceControl: Source control is disabled
-[2021.01.26-19.16.32:229][  0]SourceControl: Source control is disabled
-[2021.01.26-19.16.32:235][  0]SourceControl: Source control is disabled
-[2021.01.26-19.16.32:469][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.01.26-19.16.32:489][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.01.26-19.16.32:489][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.01.26-19.16.32:536][  0]LogOcInput: OculusInput pre-init called
-[2021.01.26-19.16.32:545][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.01.26-19.16.32:545][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.01.26-19.16.32:602][  0]LogEngine: Initializing Engine...
-[2021.01.26-19.16.32:603][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.26-19.16.32:631][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.01.26-19.16.32:632][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.01.26-19.16.32:746][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.01.26-19.16.32:756][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.01.26-19.16.32:756][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022374A43C00), frame # 0
-[2021.01.26-19.16.32:757][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022374A9C680), frame # 0
-[2021.01.26-19.16.32:936][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.26-19.16.32:936][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.26-19.16.32:936][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.26-19.16.32:936][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.26-19.16.32:936][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.26-19.16.32:936][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.26-19.16.32:936][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.26-19.16.32:936][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.26-19.16.32:936][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.26-19.16.32:936][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.26-19.16.32:952][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.26-19.16.32:952][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.01.26-19.16.33:001][  0]LogAudioMixer: Display: Using Audio Device NS-32D20SNA14 (Intel(R) Display Audio)
-[2021.01.26-19.16.33:004][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.26-19.16.33:006][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.26-19.16.33:006][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.26-19.16.33:007][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.26-19.16.33:008][  0]LogInit: FAudioDevice initialized.
-[2021.01.26-19.16.33:008][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.01.26-19.16.33:137][  0]LogDerivedDataCache: Saved boot cache 0.13s 76MB C:/Users/colla/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.01.26-19.16.33:137][  0]LogInit: Texture streaming: Enabled
-[2021.01.26-19.16.33:152][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.01.26-19.16.33:152][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.01.26-19.16.33:154][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.01.26-19.16.33:224][  0]LogInit: Transaction tracking system initialized
-[2021.01.26-19.16.33:244][  0]BlueprintLog: New page: Editor Load
-[2021.01.26-19.16.33:311][  0]LocalizationService: Localization service is disabled
-[2021.01.26-19.16.33:490][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.01.26-19.16.33:490][  0]LogCook: Display: Mobile HDR setting 1
-[2021.01.26-19.16.33:621][  0]LogFileCache: Scanning file cache for directory 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/' took 0.00s
-[2021.01.26-19.16.33:812][  0]SourceControl: Source control is disabled
-[2021.01.26-19.16.33:812][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.116
-[2021.01.26-19.16.33:812][  0]Cmd: MAP LOAD FILE="E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Maps/TutorialMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.01.26-19.16.33:812][  0]LightingResults: New page: Lighting Build
-[2021.01.26-19.16.33:813][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.01.26-19.16.33:813][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.16.33:813][  0]MapCheck: New page: Map Check
-[2021.01.26-19.16.33:813][  0]LightingResults: New page: Lighting Build
-[2021.01.26-19.16.33:822][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022374A43C00), frame # 0
-[2021.01.26-19.16.33:822][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022374A9C680), frame # 0
-[2021.01.26-19.16.33:822][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
-[2021.01.26-19.16.33:893][  0]LogBlueprint: Warning: [Compiler PersistentLevel.TutorialMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
-[2021.01.26-19.16.33:894][  0]LogBlueprint: Error: [Compiler PersistentLevel.TutorialMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
-[2021.01.26-19.16.34:216][  0]LogAIModule: Creating AISystem for world TutorialMap
-[2021.01.26-19.16.34:216][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022365F68E00), frame # 0
-[2021.01.26-19.16.34:216][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000223660F3380), frame # 0
-[2021.01.26-19.16.34:305][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.01.26-19.16.34:359][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
-[2021.01.26-19.16.34:360][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.01.26-19.16.34:360][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.165ms to complete.
-[2021.01.26-19.16.34:360][  0]LogFileHelpers: Loading map 'TutorialMap' took 0.548
-[2021.01.26-19.16.34:363][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.668
-[2021.01.26-19.16.34:533][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.26-19.16.34:540][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.26-19.16.34:546][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.26-19.16.34:552][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.26-19.16.34:560][  0]LogCollectionManager: Loaded 0 collections in 0.001403 seconds
-[2021.01.26-19.16.34:583][  0]LogFileCache: Scanning file cache for directory 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Collections/' took 0.00s
-[2021.01.26-19.16.34:583][  0]LogFileCache: Scanning file cache for directory 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/Developers/colla/Collections/' took 0.00s
-[2021.01.26-19.16.34:583][  0]LogFileCache: Scanning file cache for directory 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/Collections/' took 0.00s
-[2021.01.26-19.16.34:583][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3427 classes and 821 folders.
-[2021.01.26-19.16.34:592][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.01.26-19.16.34:750][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.01.26-19.16.34:751][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
-[2021.01.26-19.16.34:840][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.01.26-19.16.34:840][  0]LogLoad: (Engine Initialization) Total time: 7.14 seconds
-[2021.01.26-19.16.34:840][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.01.26-19.16.34:893][  0]LogAssetRegistry: Asset discovery search completed in 3.9543 seconds
-[2021.01.26-19.16.34:897][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
-[2021.01.26-19.16.34:899][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.01.26-19.16.34:903][  0]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.01.26-19.16.34:906][  0]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.01.26-19.16.34:908][  0]LogSlate: Took 0.000916 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.01.26-19.16.35:367][  0]LogSlate: Took 0.001373 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.01.26-19.16.35:389][  1]LogRenderer: Reallocating scene render targets to support 1460x560 Format 10 NumSamples 1 (Frame:1).
-[2021.01.26-19.22.04:278][226]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.01.26-19.22.04:306][226]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana
-[2021.01.26-19.22.04:614][226]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
-[2021.01.26-19.22.05:459][226]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.01.26-19.22.05:491][227]LogSlate: Took 0.001227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2021.01.26-19.22.31:869][328]BlueprintLog: New page: Compile BP_Banana
-[2021.01.26-19.22.31:913][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
-[2021.01.26-19.22.32:035][328]LogSlate: Took 0.001619 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2021.01.26-19.22.34:498][397]LogSlate: Window 'BP_Banana' being destroyed
-[2021.01.26-19.22.34:512][397]LogSlate: Window 'BP_Banana' being destroyed
-[2021.01.26-19.22.34:513][397]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2021.01.26-19.22.34:513][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.23.06:269][660]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Audio/Gulp.mp3)
-[2021.01.26-19.23.08:975][743]LogAssetEditorSubsystem: Opening Asset editor for FileMediaSource /Game/BananaCollector/Audio/Gulp.Gulp
-[2021.01.26-19.23.15:488][928]LogSlate: Window 'Gulp' being destroyed
-[2021.01.26-19.23.15:495][928]LogSlate: Window 'Gulp' being destroyed
-[2021.01.26-19.23.19:836][ 49]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana
-[2021.01.26-19.24.29:454][142]LogSlate: Window 'BP_Banana' being destroyed
-[2021.01.26-19.24.29:467][142]LogSlate: Window 'BP_Banana' being destroyed
-[2021.01.26-19.24.29:469][142]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
-[2021.01.26-19.24.29:470][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.24.35:486][321]LogAssetEditorSubsystem: Opening Asset editor for FileMediaSource /Game/BananaCollector/Audio/Gulp.Gulp
-[2021.01.26-19.24.46:509][637]LogSlate: Window 'Gulp' being destroyed
-[2021.01.26-19.24.46:516][637]LogSlate: Window 'Gulp' being destroyed
-[2021.01.26-19.26.35:519][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
-[2021.01.26-19.26.35:578][ 48]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/TutorialMap_Auto1D510E36946A7081881B7AEBB082D7CF8.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Autosaves/Game/BananaCollector/Maps/TutorialMap_Auto1.umap'
-[2021.01.26-19.26.35:609][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/BananaCollector/Maps/TutorialMap' took 0.115
-[2021.01.26-19.26.35:609][ 48]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.115
-[2021.01.26-19.26.35:609][ 48]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BananaCollector/Blueprints/BP_Banana] ([1] browsable assets)...
-[2021.01.26-19.26.35:643][ 48]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana]
-[2021.01.26-19.26.35:643][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/BananaCollector/Blueprints/BP_Banana]
-[2021.01.26-19.26.35:669][ 48]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/BP_Banana_Auto131CB30CA4A2D046487FAC39631B09A34.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Autosaves/Game/BananaCollector/Blueprints/BP_Banana_Auto1.uasset'
-[2021.01.26-19.26.35:673][ 48]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BananaCollector/Audio/Gulp] ([1] browsable assets)...
-[2021.01.26-19.26.35:673][ 48]OBJ SavePackage: Finished generating thumbnails for package [/Game/BananaCollector/Audio/Gulp]
-[2021.01.26-19.26.35:677][ 48]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Gulp_Auto1179D2002484B84D8CE3088BFBC385521.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Autosaves/Game/BananaCollector/Audio/Gulp_Auto1.uasset'
-[2021.01.26-19.26.35:680][ 48]LogFileHelpers: Auto-saving content packages took 0.071
-[2021.01.26-19.26.47:811][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
-[2021.01.26-19.26.49:449][650]LogSlate: Window 'Delete Assets' being destroyed
-[2021.01.26-19.26.49:532][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
-[2021.01.26-19.26.52:548][684]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Audio/Gulp.wav)
-[2021.01.26-19.26.52:556][684]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Gulp...
-[2021.01.26-19.26.52:556][684]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/BananaCollector/Audio/Gulp.Gulp will be modified from 40 to 40.
-[2021.01.26-19.26.52:586][684]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 120512 while cooking SoundWave /Game/BananaCollector/Audio/Gulp.Gulp.
-[2021.01.26-19.27.00:454][907]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana
-[2021.01.26-19.27.08:929][159]BlueprintLog: New page: Compile BP_Banana
-[2021.01.26-19.27.08:970][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
-[2021.01.26-19.27.11:935][238]LogSlate: Window 'BP_Banana' being destroyed
-[2021.01.26-19.27.11:943][238]LogSlate: Window 'BP_Banana' being destroyed
-[2021.01.26-19.27.11:943][238]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
-[2021.01.26-19.27.11:943][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.27.14:330][309]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.26-19.27.14:345][309]BlueprintLog: New page: Pre-Play auto-recompile
-[2021.01.26-19.27.14:345][309]LogPlayLevel: [PlayLevel] Compiling TutorialMap before play...
-[2021.01.26-19.27.14:346][309]LogBlueprint: Warning: [Compiler PersistentLevel.TutorialMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
-[2021.01.26-19.27.14:347][309]LogBlueprint: Error: [Compiler PersistentLevel.TutorialMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
-[2021.01.26-19.27.14:408][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
-[2021.01.26-19.27.14:409][309]LogPlayLevel: PlayLevel: Blueprint regeneration took 63 ms (1 blueprints)
-[2021.01.26-19.27.14:409][309]BlueprintLog: Warning: Blueprint failed to compile:  TutorialMap
-[2021.01.26-19.27.14:410][309]LogCustomDialog: Dialog displayed:
-[2021.01.26-19.27.25:065][309]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
-[2021.01.26-19.27.29:486][417]LogSlate: Window 'Message Log' being destroyed
-[2021.01.26-19.27.29:493][417]LogSlate: Window 'Message Log' being destroyed
-[2021.01.26-19.27.34:665][551]AssetReimport: New page: Outstanding source content changes 7:27:34 AM
-[2021.01.26-19.27.34:669][551]LogAudioEditor: Performing atomic reimport of [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Audio/Gulp.wav]
-[2021.01.26-19.27.34:670][551]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Audio/Gulp.wav)
-[2021.01.26-19.27.34:688][551]LogAudioEditor: -- imported successfully
-[2021.01.26-19.27.37:774][656]AssetReimport: Reimported asset Gulp from E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Audio/Gulp.wav.
-[2021.01.26-19.27.44:150][854]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.26-19.27.44:165][854]BlueprintLog: New page: Pre-Play auto-recompile
-[2021.01.26-19.27.44:165][854]LogPlayLevel: [PlayLevel] Compiling TutorialMap before play...
-[2021.01.26-19.27.44:166][854]LogBlueprint: Warning: [Compiler PersistentLevel.TutorialMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
-[2021.01.26-19.27.44:167][854]LogBlueprint: Error: [Compiler PersistentLevel.TutorialMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
-[2021.01.26-19.27.44:193][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
-[2021.01.26-19.27.44:195][854]LogPlayLevel: PlayLevel: Blueprint regeneration took 30 ms (1 blueprints)
-[2021.01.26-19.27.44:195][854]BlueprintLog: Warning: Blueprint failed to compile:  TutorialMap
-[2021.01.26-19.27.44:195][854]LogCustomDialog: Dialog displayed:
-[2021.01.26-19.27.46:361][854]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
-[2021.01.26-19.27.48:244][883]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana
-[2021.01.26-19.27.51:311][953]BlueprintLog: New page: Compile BP_Banana
-[2021.01.26-19.27.51:352][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
-[2021.01.26-19.28.08:821][549]LogSlate: Window 'BP_Banana' being destroyed
-[2021.01.26-19.28.08:830][549]LogSlate: Window 'BP_Banana' being destroyed
-[2021.01.26-19.28.08:831][549]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2021.01.26-19.28.08:831][549]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.28.10:660][601]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.26-19.28.10:676][601]BlueprintLog: New page: Pre-Play auto-recompile
-[2021.01.26-19.28.10:676][601]LogPlayLevel: [PlayLevel] Compiling TutorialMap before play...
-[2021.01.26-19.28.10:679][601]LogBlueprint: Warning: [Compiler PersistentLevel.TutorialMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
-[2021.01.26-19.28.10:679][601]LogBlueprint: Error: [Compiler PersistentLevel.TutorialMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
-[2021.01.26-19.28.10:709][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
-[2021.01.26-19.28.10:710][601]LogPlayLevel: PlayLevel: Blueprint regeneration took 33 ms (1 blueprints)
-[2021.01.26-19.28.10:710][601]BlueprintLog: Warning: Blueprint failed to compile:  TutorialMap
-[2021.01.26-19.28.10:710][601]LogCustomDialog: Dialog displayed:
-[2021.01.26-19.28.12:913][601]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
-[2021.01.26-19.28.12:924][601]PIE: New page: PIE session: TutorialMap (Jan 26, 2021, 7:28:12 AM)
-[2021.01.26-19.28.12:926][601]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2021.01.26-19.28.12:928][601]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
-[2021.01.26-19.28.12:928][601]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
-[2021.01.26-19.28.12:931][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003314s)
-[2021.01.26-19.28.12:932][601]LogAIModule: Creating AISystem for world TutorialMap
-[2021.01.26-19.28.12:932][601]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002239167A800), frame # 8601
-[2021.01.26-19.28.12:932][601]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002239860BC40), frame # 8601
-[2021.01.26-19.28.12:932][601]LogPlayLevel: PIE: World Init took: (0.000958s)
-[2021.01.26-19.28.12:932][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.004395s)
-[2021.01.26-19.28.12:951][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
-[2021.01.26-19.28.12:951][601]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.26-19.28.12:951][601]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.26-19.28.12:951][601]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.26-19.28.12:951][601]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.26-19.28.12:951][601]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.26-19.28.12:951][601]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.26-19.28.12:951][601]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.26-19.28.12:951][601]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.26-19.28.12:952][601]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.26-19.28.12:952][601]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.26-19.28.12:955][601]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.26-19.28.12:955][601]LogAudioMixer: Display: 1: FrontRight
-[2021.01.26-19.28.12:969][601]LogAudioMixer: Display: Using Audio Device NS-32D20SNA14 (Intel(R) Display Audio)
-[2021.01.26-19.28.12:969][601]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.26-19.28.12:969][601]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.26-19.28.12:969][601]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.26-19.28.12:970][601]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.26-19.28.12:988][601]LogInit: FAudioDevice initialized.
-[2021.01.26-19.28.12:995][601]LogLoad: Game class is 'GM_Tutorial_C'
-[2021.01.26-19.28.12:998][601]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2021.01.26-13.28.12
-[2021.01.26-19.28.12:998][601]LogWorld: Bringing up level for play took: 0.000937
-[2021.01.26-19.28.12:999][601]LogOnline: OSS: Creating online subsystem instance for: :Context_9
-[2021.01.26-19.28.13:014][601]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2021.01.26-19.28.13:015][601]PIE: Server logged in
-[2021.01.26-19.28.13:017][601]PIE: Play in editor total start time 2.341 seconds.
-[2021.01.26-19.28.23:509][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.26-19.28.23:509][961]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
-[2021.01.26-19.28.23:509][961]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
-[2021.01.26-19.28.23:509][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.28.23:545][961]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.01.26-19.28.23:548][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.28.23:568][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.26-19.28.23:597][961]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002239860BC40), frame # 8961
-[2021.01.26-19.28.23:597][961]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002239167A800), frame # 8961
-[2021.01.26-19.28.23:622][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
-[2021.01.26-19.28.23:707][962]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2021.01.26-19.28.44:573][505]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.26-19.28.45:365][505]BlueprintLog: New page: Pre-Play auto-recompile
-[2021.01.26-19.28.45:365][505]LogPlayLevel: [PlayLevel] Compiling TutorialMap before play...
-[2021.01.26-19.28.45:367][505]LogBlueprint: Warning: [Compiler PersistentLevel.TutorialMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
-[2021.01.26-19.28.45:367][505]LogBlueprint: Error: [Compiler PersistentLevel.TutorialMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
-[2021.01.26-19.28.45:415][505]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
-[2021.01.26-19.28.45:417][505]LogPlayLevel: PlayLevel: Blueprint regeneration took 51 ms (1 blueprints)
-[2021.01.26-19.28.45:417][505]BlueprintLog: Warning: Blueprint failed to compile:  TutorialMap
-[2021.01.26-19.28.45:417][505]LogCustomDialog: Dialog displayed:
-[2021.01.26-19.28.53:139][505]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
-[2021.01.26-19.28.55:921][566]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.26-19.28.55:944][566]BlueprintLog: New page: Pre-Play auto-recompile
-[2021.01.26-19.28.55:945][566]LogPlayLevel: [PlayLevel] Compiling TutorialMap before play...
-[2021.01.26-19.28.55:946][566]LogBlueprint: Warning: [Compiler PersistentLevel.TutorialMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
-[2021.01.26-19.28.55:948][566]LogBlueprint: Error: [Compiler PersistentLevel.TutorialMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
-[2021.01.26-19.28.55:982][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
-[2021.01.26-19.28.55:983][566]LogPlayLevel: PlayLevel: Blueprint regeneration took 38 ms (1 blueprints)
-[2021.01.26-19.28.55:983][566]BlueprintLog: Warning: Blueprint failed to compile:  TutorialMap
-[2021.01.26-19.28.55:983][566]LogCustomDialog: Dialog displayed:
-[2021.01.26-19.28.57:380][566]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
-[2021.01.26-19.28.57:393][566]PIE: New page: PIE session: TutorialMap (Jan 26, 2021, 7:28:57 AM)
-[2021.01.26-19.28.57:393][566]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
-[2021.01.26-19.28.57:399][566]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005484s)
-[2021.01.26-19.28.57:400][566]LogAIModule: Creating AISystem for world TutorialMap
-[2021.01.26-19.28.57:400][566]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002239EAA6C00), frame # 9566
-[2021.01.26-19.28.57:400][566]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002239E4A6AC0), frame # 9566
-[2021.01.26-19.28.57:400][566]LogPlayLevel: PIE: World Init took: (0.000972s)
-[2021.01.26-19.28.57:400][566]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.006633s)
-[2021.01.26-19.28.57:415][566]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
-[2021.01.26-19.28.57:416][566]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.26-19.28.57:416][566]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.26-19.28.57:416][566]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.26-19.28.57:416][566]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.26-19.28.57:416][566]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.26-19.28.57:416][566]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.26-19.28.57:416][566]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.26-19.28.57:416][566]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.26-19.28.57:416][566]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.26-19.28.57:416][566]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.26-19.28.57:419][566]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.26-19.28.57:419][566]LogAudioMixer: Display: 1: FrontRight
-[2021.01.26-19.28.57:430][566]LogAudioMixer: Display: Using Audio Device NS-32D20SNA14 (Intel(R) Display Audio)
-[2021.01.26-19.28.57:431][566]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.26-19.28.57:431][566]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.26-19.28.57:431][566]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.26-19.28.57:431][566]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.26-19.28.57:448][566]LogInit: FAudioDevice initialized.
-[2021.01.26-19.28.57:458][566]LogLoad: Game class is 'GM_Tutorial_C'
-[2021.01.26-19.28.57:460][566]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2021.01.26-13.28.57
-[2021.01.26-19.28.57:461][566]LogWorld: Bringing up level for play took: 0.000880
-[2021.01.26-19.28.57:461][566]LogOnline: OSS: Creating online subsystem instance for: :Context_10
-[2021.01.26-19.28.57:463][566]PIE: Server logged in
-[2021.01.26-19.28.57:464][566]PIE: Play in editor total start time 1.521 seconds.
-[2021.01.26-19.29.30:759][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.26-19.29.30:759][722]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
-[2021.01.26-19.29.30:759][722]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
-[2021.01.26-19.29.30:760][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.29.30:794][722]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.01.26-19.29.30:797][722]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.29.30:812][722]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.26-19.29.30:835][722]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002239E4A6AC0), frame # 10722
-[2021.01.26-19.29.30:835][722]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002239EAA6C00), frame # 10722
-[2021.01.26-19.29.30:836][722]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
-[2021.01.26-19.29.30:945][723]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2021.01.26-19.30.09:826][688]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.26-19.30.09:846][688]BlueprintLog: New page: Pre-Play auto-recompile
-[2021.01.26-19.30.09:848][688]LogPlayLevel: [PlayLevel] Compiling TutorialMap before play...
-[2021.01.26-19.30.09:852][688]LogBlueprint: Warning: [Compiler PersistentLevel.TutorialMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
-[2021.01.26-19.30.09:854][688]LogBlueprint: Error: [Compiler PersistentLevel.TutorialMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
-[2021.01.26-19.30.09:901][688]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
-[2021.01.26-19.30.09:904][688]LogPlayLevel: PlayLevel: Blueprint regeneration took 57 ms (1 blueprints)
-[2021.01.26-19.30.09:904][688]BlueprintLog: Warning: Blueprint failed to compile:  TutorialMap
-[2021.01.26-19.30.09:904][688]LogCustomDialog: Dialog displayed:
-[2021.01.26-19.30.13:724][688]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
-[2021.01.26-19.30.15:664][721]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana
-[2021.01.26-19.30.19:661][808]BlueprintLog: New page: Compile BP_Banana
-[2021.01.26-19.30.19:738][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
-[2021.01.26-19.30.38:465][268]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.26-19.30.38:962][268]BlueprintLog: New page: Pre-Play auto-recompile
-[2021.01.26-19.30.38:962][268]LogPlayLevel: [PlayLevel] Compiling TutorialMap before play...
-[2021.01.26-19.30.38:963][268]LogBlueprint: Warning: [Compiler PersistentLevel.TutorialMap] OnActorBeginOverlap (None)  is referencing an Actor that no longer exists. Attached logic will never execute.
-[2021.01.26-19.30.38:964][268]LogBlueprint: Error: [Compiler PersistentLevel.TutorialMap] Couldn't find object for bound event node  OnActorBeginOverlap (None)
-[2021.01.26-19.30.38:992][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
-[2021.01.26-19.30.38:993][268]LogPlayLevel: PlayLevel: Blueprint regeneration took 31 ms (1 blueprints)
-[2021.01.26-19.30.38:993][268]BlueprintLog: Warning: Blueprint failed to compile:  TutorialMap
-[2021.01.26-19.30.38:994][268]LogCustomDialog: Dialog displayed:
-[2021.01.26-19.30.41:550][268]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/BananaCollector/Maps/TutorialMap.TutorialMap:PersistentLevel.TutorialMap
-[2021.01.26-19.30.45:455][268]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
-[2021.01.26-19.30.59:828][623]BlueprintLog: New page: Compile TutorialMap
-[2021.01.26-19.30.59:876][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
-[2021.01.26-19.31.02:860][698]LogSlate: Window 'TutorialMap' being destroyed
-[2021.01.26-19.31.02:875][698]LogSlate: Window 'TutorialMap' being destroyed
-[2021.01.26-19.31.02:876][698]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
-[2021.01.26-19.31.02:876][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.31.02:930][698]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
-[2021.01.26-19.31.02:930][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.31.04:745][748]LogTemp: Repeating last play command: Selected Viewport
-[2021.01.26-19.31.04:765][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2021.01.26-19.31.04:766][748]PIE: New page: PIE session: TutorialMap (Jan 26, 2021, 7:31:04 AM)
-[2021.01.26-19.31.04:766][748]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
-[2021.01.26-19.31.04:775][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008360s)
-[2021.01.26-19.31.04:776][748]LogAIModule: Creating AISystem for world TutorialMap
-[2021.01.26-19.31.04:776][748]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000223B6B83200), frame # 12748
-[2021.01.26-19.31.04:776][748]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000223A101CCC0), frame # 12748
-[2021.01.26-19.31.04:776][748]LogPlayLevel: PIE: World Init took: (0.001237s)
-[2021.01.26-19.31.04:776][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.009871s)
-[2021.01.26-19.31.04:818][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
-[2021.01.26-19.31.04:819][748]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.01.26-19.31.04:819][748]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.01.26-19.31.04:819][748]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.01.26-19.31.04:819][748]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.01.26-19.31.04:819][748]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.01.26-19.31.04:819][748]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.01.26-19.31.04:819][748]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.01.26-19.31.04:819][748]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.01.26-19.31.04:820][748]LogAudio: Display: Using built-in audio occlusion.
-[2021.01.26-19.31.04:820][748]LogAudioMixer: Display: Initializing audio mixer.
-[2021.01.26-19.31.04:822][748]LogAudioMixer: Display: 0: FrontLeft
-[2021.01.26-19.31.04:822][748]LogAudioMixer: Display: 1: FrontRight
-[2021.01.26-19.31.04:834][748]LogAudioMixer: Display: Using Audio Device NS-32D20SNA14 (Intel(R) Display Audio)
-[2021.01.26-19.31.04:835][748]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.01.26-19.31.04:835][748]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.01.26-19.31.04:835][748]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.01.26-19.31.04:835][748]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.01.26-19.31.04:850][748]LogInit: FAudioDevice initialized.
-[2021.01.26-19.31.04:860][748]LogLoad: Game class is 'GM_Tutorial_C'
-[2021.01.26-19.31.04:863][748]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2021.01.26-13.31.04
-[2021.01.26-19.31.04:863][748]LogWorld: Bringing up level for play took: 0.001355
-[2021.01.26-19.31.04:863][748]LogOnline: OSS: Creating online subsystem instance for: :Context_13
-[2021.01.26-19.31.04:866][748]PIE: Server logged in
-[2021.01.26-19.31.04:866][748]PIE: Play in editor total start time 0.101 seconds.
-[2021.01.26-19.33.16:589][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.26-19.33.16:590][419]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
-[2021.01.26-19.33.16:590][419]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
-[2021.01.26-19.33.16:590][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.33.16:655][419]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2021.01.26-19.33.16:657][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.01.26-19.33.16:694][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.26-19.33.16:695][419]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000223A101CCC0), frame # 16419
-[2021.01.26-19.33.16:695][419]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000223B6B83200), frame # 16419
-[2021.01.26-19.33.16:697][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
-[2021.01.26-19.33.16:729][420]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2021.01.26-19.33.23:891][615]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
-[2021.01.26-19.33.23:944][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
-[2021.01.26-19.33.23:973][615]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/TutorialMapF65D817B46169218E6E4739F0DB165DF.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Maps/TutorialMap.umap'
-[2021.01.26-19.33.24:010][615]LogFileHelpers: Saving map 'TutorialMap' took 0.084
-[2021.01.26-19.33.24:018][615]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/TutorialMap_BuiltDataDEB61BEB4512C842270B24B8B593F47C.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Maps/TutorialMap_BuiltData.uasset'
-[2021.01.26-19.33.24:081][615]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/BP_Banana796263B44D7C50D7800B4E8A1B6FCE04.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Blueprints/BP_Banana.uasset'
-[2021.01.26-19.33.24:094][615]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/TutorialMap_BuiltData6089396F4FF935C97B2F8D9B108D25A5.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Maps/TutorialMap_BuiltData.uasset'
-[2021.01.26-19.33.24:100][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BananaCollector/Audio/Gulp" FILE="E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Audio/Gulp.uasset" SILENT=true
-[2021.01.26-19.33.24:110][615]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Gulp72C06CFB4E0D3E81E7A5A0A6237DCE19.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Audio/Gulp.uasset'
-[2021.01.26-19.33.24:139][615]AssetCheck: New page: Asset Save: multiple assets
-[2021.01.26-19.33.24:139][615]LogContentValidation: Display: Validating World /Game/BananaCollector/Maps/TutorialMap.TutorialMap
-[2021.01.26-19.33.24:139][615]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BananaCollector/Maps/TutorialMap_BuiltData.TutorialMap_BuiltData
-[2021.01.26-19.33.24:139][615]LogContentValidation: Display: Validating Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana
-[2021.01.26-19.33.24:139][615]LogContentValidation: Display: Validating SoundWave /Game/BananaCollector/Audio/Gulp.Gulp
-[2021.01.26-19.33.33:120][792]LogSlate: Window 'Message Log' being destroyed
-[2021.01.26-19.33.33:171][792]LogSlate: Window 'Message Log' being destroyed
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
+[2021.01.27-17.07.16:530][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.01.27-17.07.16:530][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.27-17.07.16:531][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
+[2021.01.27-17.07.16:531][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
+[2021.01.27-17.07.16:537][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:537][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.27-17.07.16:537][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.27-17.07.16:538][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.27-17.07.16:538][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.27-17.07.16:538][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.27-17.07.16:539][  0]LogHAL: Display: Platform has ~ 8 GB [8347623424 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.27-17.07.16:539][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.27-17.07.16:539][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.01.27-17.07.16:539][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.01.27-17.07.16:540][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:540][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.27-17.07.16:540][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.27-17.07.16:540][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Scalability.ini]
+[2021.01.27-17.07.16:540][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.01.27-17.07.16:540][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.01.27-17.07.16:540][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.01.27-17.07.16:540][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.01.27-17.07.16:540][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.01.27-17.07.16:540][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.01.27-17.07.16:540][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.01.27-17.07.16:540][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.27-17.07.16:541][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.27-17.07.16:541][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.27-17.07.16:541][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.01.27-17.07.16:541][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Config/Windows/Engine.ini]
+[2021.01.27-17.07.16:541][  0]LogInit: Computer: LAPTOP-VSCMJV9G
+[2021.01.27-17.07.16:541][  0]LogInit: User: colla
+[2021.01.27-17.07.16:541][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.01.27-17.07.16:541][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.27-17.07.16:541][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2021.01.27-17.07.16:541][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.27-17.07.16:541][  0]LogMemory: Process Physical Memory: 114.55 MB used, 114.55 MB peak
+[2021.01.27-17.07.16:541][  0]LogMemory: Process Virtual Memory: 96.34 MB used, 96.34 MB peak
+[2021.01.27-17.07.16:541][  0]LogMemory: Physical Memory: 5372.91 MB used,  2588.00 MB free, 7960.91 MB total
+[2021.01.27-17.07.16:541][  0]LogMemory: Virtual Memory: 5143.52 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2021.01.27-17.07.16:545][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.01.27-17.07.16:574][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.01.27-17.07.16:575][  0]LogInit: Using OS detected language (en-US).
+[2021.01.27-17.07.16:575][  0]LogInit: Using OS detected locale (en-US).
+[2021.01.27-17.07.16:577][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.01.27-17.07.16:729][  0]LogInit: Setting process to per monitor DPI aware
+[2021.01.27-17.07.16:788][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.27-17.07.16:788][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.27-17.07.16:914][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.27-17.07.16:914][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.01.27-17.07.16:914][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.01.27-17.07.16:914][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.27-17.07.16:976][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics' (Feature Level 11_0)
+[2021.01.27-17.07.16:976][  0]LogD3D11RHI:       128/0/3980 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2021.01.27-17.07.16:978][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.27-17.07.16:979][  0]LogD3D11RHI:       0/0/3980 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.27-17.07.16:979][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.27-17.07.16:987][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.27-17.07.16:987][  0]LogD3D11RHI:     GPU DeviceId: 0x8a56 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.27-17.07.16:987][  0]LogWindows: EnumDisplayDevices:
+[2021.01.27-17.07.16:987][  0]LogWindows:    0. 'Intel(R) UHD Graphics' (P:1 D:1)
+[2021.01.27-17.07.16:987][  0]LogWindows:    1. 'Intel(R) UHD Graphics' (P:0 D:1)
+[2021.01.27-17.07.16:988][  0]LogWindows:    2. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.01.27-17.07.16:988][  0]LogWindows:    3. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.01.27-17.07.16:988][  0]LogWindows:    4. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.01.27-17.07.16:988][  0]LogWindows:    5. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.01.27-17.07.16:988][  0]LogWindows:    6. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.01.27-17.07.16:989][  0]LogWindows:    7. 'Intel(R) UHD Graphics' (P:0 D:0)
+[2021.01.27-17.07.16:989][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2021.01.27-17.07.16:989][  0]LogD3D11RHI:     Adapter Name: Intel(R) UHD Graphics
+[2021.01.27-17.07.16:989][  0]LogD3D11RHI:   Driver Version: 26.20.100.7985 (internal:26.20.100.7985, unified:26.20.100.7985)
+[2021.01.27-17.07.16:989][  0]LogD3D11RHI:      Driver Date: 3-9-2020
+[2021.01.27-17.07.16:989][  0]LogRHI: Texture pool is 1482 MB (70% of 2118 MB)
+[2021.01.27-17.07.17:094][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
+[2021.01.27-17.07.17:095][  0]LogD3D11RHI: [IntelMetricsDiscovery] Started
+[2021.01.27-17.07.17:095][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.27-17.07.17:095][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.01.27-17.07.17:101][  0]LogD3D11RHI: GPU Timing Frequency: 19.200000 (Debug: 2 0)
+[2021.01.27-17.07.17:428][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.01.27-17.07.17:447][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.01.27-17.07.17:447][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.01.27-17.07.17:447][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.01.27-17.07.17:447][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.01.27-17.07.17:447][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.01.27-17.07.17:447][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.01.27-17.07.17:447][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.01.27-17.07.17:447][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.01.27-17.07.17:447][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.01.27-17.07.17:447][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.01.27-17.07.17:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.01.27-17.07.17:470][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.01.27-17.07.17:479][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.01.27-17.07.17:488][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.01.27-17.07.17:497][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.01.27-17.07.17:506][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.01.27-17.07.17:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.01.27-17.07.17:523][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.01.27-17.07.17:532][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.01.27-17.07.17:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.01.27-17.07.17:555][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.01.27-17.07.17:570][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.01.27-17.07.17:570][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.01.27-17.07.17:578][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.27-17.07.17:588][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.01.27-17.07.17:597][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.01.27-17.07.17:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.01.27-17.07.17:606][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.27-17.07.17:613][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.27-17.07.17:670][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Intermediate/Shaders/WorkingDirectory/17396/).
+[2021.01.27-17.07.17:671][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/colla/AppData/Local/Temp/UnrealShaderWorkingDir/88A5EFFF459AD5DE024423B1B3F88786/'.
+[2021.01.27-17.07.17:671][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.27-17.07.17:671][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.27-17.07.17:671][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.27-17.07.18:417][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.27-17.07.18:462][  0]LogDerivedDataCache: Loaded boot cache 0.04s 76MB C:/Users/colla/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.27-17.07.18:462][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/colla/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.01.27-17.07.18:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.27-17.07.18:462][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.27-17.07.18:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.27-17.07.18:462][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.27-17.07.18:473][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.27-17.07.18:473][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.27-17.07.18:473][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.27-17.07.18:474][  0]LogDerivedDataCache: Using Local data cache path C:/Users/colla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.27-17.07.18:474][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.27-17.07.18:474][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.27-17.07.18:526][  0]LogSlate: Using FreeType 2.10.0
+[2021.01.27-17.07.18:526][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.27-17.07.18:552][  0]LogAssetRegistry: FAssetRegistry took 0.0026 seconds to start up
+[2021.01.27-17.07.18:761][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.27-17.07.18:874][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.27-17.07.18:875][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.27-17.07.18:875][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.27-17.07.18:875][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.27-17.07.18:875][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.27-17.07.18:894][  0]LogNetVersion: BananaCollector 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 807415613)
+[2021.01.27-17.07.19:289][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000017E00BB0280), frame # 0
+[2021.01.27-17.07.19:289][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017E00AF11C0), frame # 0
+[2021.01.27-17.07.19:290][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017E00B39E00), frame # 0
+[2021.01.27-17.07.19:463][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.167741 seconds
+[2021.01.27-17.07.19:467][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.01.27-17.07.19:467][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.01.27-17.07.19:467][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.27-17.07.19:815][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.27-17.07.19:820][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.27-17.07.19:908][  0]SourceControl: Source control is disabled
+[2021.01.27-17.07.19:908][  0]SourceControl: Source control is disabled
+[2021.01.27-17.07.19:911][  0]SourceControl: Source control is disabled
+[2021.01.27-17.07.19:914][  0]SourceControl: Source control is disabled
+[2021.01.27-17.07.19:922][  0]SourceControl: Source control is disabled
+[2021.01.27-17.07.20:160][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.27-17.07.20:179][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.27-17.07.20:179][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.01.27-17.07.20:225][  0]LogOcInput: OculusInput pre-init called
+[2021.01.27-17.07.20:235][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.01.27-17.07.20:235][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.01.27-17.07.20:317][  0]LogEngine: Initializing Engine...
+[2021.01.27-17.07.20:320][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.27-17.07.20:320][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.01.27-17.07.20:321][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.27-17.07.20:431][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.27-17.07.20:440][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.01.27-17.07.20:440][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017E06073C00), frame # 0
+[2021.01.27-17.07.20:440][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017E060D4680), frame # 0
+[2021.01.27-17.07.20:580][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-17.07.20:580][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-17.07.20:580][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-17.07.20:580][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-17.07.20:580][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-17.07.20:580][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-17.07.20:580][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-17.07.20:580][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-17.07.20:580][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-17.07.20:580][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-17.07.20:595][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-17.07.20:595][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-17.07.20:646][  0]LogAudioMixer: Display: Using Audio Device NS-32D20SNA14 (Intel(R) Display Audio)
+[2021.01.27-17.07.20:648][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-17.07.20:650][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-17.07.20:650][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-17.07.20:651][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-17.07.20:652][  0]LogInit: FAudioDevice initialized.
+[2021.01.27-17.07.20:652][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.27-17.07.20:766][  0]LogDerivedDataCache: Saved boot cache 0.11s 76MB C:/Users/colla/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.01.27-17.07.20:767][  0]LogInit: Texture streaming: Enabled
+[2021.01.27-17.07.20:784][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.01.27-17.07.20:784][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.01.27-17.07.20:788][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.01.27-17.07.20:868][  0]LogInit: Transaction tracking system initialized
+[2021.01.27-17.07.20:888][  0]BlueprintLog: New page: Editor Load
+[2021.01.27-17.07.20:956][  0]LocalizationService: Localization service is disabled
+[2021.01.27-17.07.21:181][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.01.27-17.07.21:181][  0]LogCook: Display: Mobile HDR setting 1
+[2021.01.27-17.07.21:324][  0]LogFileCache: Scanning file cache for directory 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/' took 0.04s
+[2021.01.27-17.07.21:535][  0]SourceControl: Source control is disabled
+[2021.01.27-17.07.21:535][  0]LogUnrealEdMisc: Loading editor; pre map load, took 14.197
+[2021.01.27-17.07.21:535][  0]Cmd: MAP LOAD FILE="E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Maps/TutorialMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.01.27-17.07.21:535][  0]LightingResults: New page: Lighting Build
+[2021.01.27-17.07.21:536][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-17.07.21:536][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.07.21:536][  0]MapCheck: New page: Map Check
+[2021.01.27-17.07.21:536][  0]LightingResults: New page: Lighting Build
+[2021.01.27-17.07.21:545][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017E06073C00), frame # 0
+[2021.01.27-17.07.21:545][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017E060D4680), frame # 0
+[2021.01.27-17.07.21:546][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.01.27-17.07.22:685][  0]LogAIModule: Creating AISystem for world TutorialMap
+[2021.01.27-17.07.22:685][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017E063F7E00), frame # 0
+[2021.01.27-17.07.22:685][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017E065E7EC0), frame # 0
+[2021.01.27-17.07.22:738][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.01.27-17.07.22:788][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.01.27-17.07.22:788][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.01.27-17.07.22:788][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.128ms to complete.
+[2021.01.27-17.07.22:788][  0]LogFileHelpers: Loading map 'TutorialMap' took 1.254
+[2021.01.27-17.07.22:791][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.454
+[2021.01.27-17.07.22:974][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-17.07.22:981][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-17.07.22:987][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-17.07.22:993][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-17.07.23:008][  0]LogCollectionManager: Loaded 0 collections in 0.001413 seconds
+[2021.01.27-17.07.23:044][  0]LogFileCache: Scanning file cache for directory 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/Collections/' took 0.00s
+[2021.01.27-17.07.23:044][  0]LogFileCache: Scanning file cache for directory 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/Developers/colla/Collections/' took 0.00s
+[2021.01.27-17.07.23:044][  0]LogFileCache: Scanning file cache for directory 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/Collections/' took 0.00s
+[2021.01.27-17.07.23:044][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 3427 classes and 821 folders.
+[2021.01.27-17.07.23:052][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.01.27-17.07.23:338][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.27-17.07.23:345][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.01.27-17.07.23:505][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.01.27-17.07.23:505][  0]LogLoad: (Engine Initialization) Total time: 16.17 seconds
+[2021.01.27-17.07.23:505][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.27-17.07.23:557][  0]LogAssetRegistry: Asset discovery search completed in 5.0055 seconds
+[2021.01.27-17.07.23:561][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.01.27-17.07.23:564][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.27-17.07.23:571][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.01.27-17.07.23:577][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.01.27-17.07.23:580][  0]LogSlate: Took 0.000956 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.01.27-17.07.24:078][  0]LogSlate: Took 0.000816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.27-17.07.24:096][  1]LogRenderer: Reallocating scene render targets to support 1460x560 Format 10 NumSamples 1 (Frame:1).
+[2021.01.27-17.08.08:658][334]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-17.08.08:679][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-17.08.08:683][334]PIE: New page: PIE session: TutorialMap (Jan 27, 2021, 5:08:08 AM)
+[2021.01.27-17.08.08:686][334]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.01.27-17.08.08:687][334]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.01.27-17.08.08:688][334]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2021.01.27-17.08.08:694][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005777s)
+[2021.01.27-17.08.08:696][334]LogAIModule: Creating AISystem for world TutorialMap
+[2021.01.27-17.08.08:696][334]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017E283B6200), frame # 1334
+[2021.01.27-17.08.08:696][334]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017E283D16C0), frame # 1334
+[2021.01.27-17.08.08:697][334]LogPlayLevel: PIE: World Init took: (0.001696s)
+[2021.01.27-17.08.08:697][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.007618s)
+[2021.01.27-17.08.08:707][334]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.01.27-17.08.08:709][334]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-17.08.08:709][334]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-17.08.08:709][334]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-17.08.08:709][334]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-17.08.08:709][334]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-17.08.08:709][334]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-17.08.08:709][334]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-17.08.08:709][334]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-17.08.08:710][334]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-17.08.08:710][334]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-17.08.08:712][334]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-17.08.08:713][334]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-17.08.08:722][334]LogAudioMixer: Display: Using Audio Device NS-32D20SNA14 (Intel(R) Display Audio)
+[2021.01.27-17.08.08:722][334]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-17.08.08:723][334]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-17.08.08:723][334]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-17.08.08:723][334]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-17.08.08:737][334]LogInit: FAudioDevice initialized.
+[2021.01.27-17.08.08:755][334]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.01.27-17.08.08:767][334]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2021.01.27-11.08.08
+[2021.01.27-17.08.08:768][334]LogWorld: Bringing up level for play took: 0.001899
+[2021.01.27-17.08.08:768][334]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.01.27-17.08.08:778][334]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.01.27-17.08.08:786][334]PIE: Server logged in
+[2021.01.27-17.08.08:788][334]PIE: Play in editor total start time 0.115 seconds.
+[2021.01.27-17.08.27:202][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-17.08.27:202][863]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2021.01.27-17.08.27:204][863]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-17.08.27:204][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.08.27:246][863]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-17.08.27:248][863]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.08.27:278][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-17.08.27:280][863]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017E283D16C0), frame # 1863
+[2021.01.27-17.08.27:280][863]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017E283B6200), frame # 1863
+[2021.01.27-17.08.27:281][863]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.01.27-17.08.27:313][864]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.01.27-17.08.53:116][165]LogSlate: Took 0.002362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.01.27-17.08.53:148][165]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Player.BP_Player
+[2021.01.27-17.08.53:865][165]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.01.27-17.08.56:492][165]LogSlate: Took 0.000953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.01.27-17.08.56:561][166]LogSlate: Took 0.001123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.01.27-17.09.10:618][547]LogSlate: Window 'BP_Player' being destroyed
+[2021.01.27-17.09.10:643][547]LogSlate: Window 'BP_Player' being destroyed
+[2021.01.27-17.09.10:644][547]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-17.09.10:644][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.09.12:895][585]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana
+[2021.01.27-17.10.29:481][493]LogSlate: Took 0.001035 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.01.27-17.10.42:222][579]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.01.27-17.10.45:991][671]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.01.27-17.10.46:039][671]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.01.27-17.14.53:944][305]BlueprintLog: New page: Compile BP_Banana
+[2021.01.27-17.14.54:041][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2021.01.27-17.14.54:123][305]LogSlate: Took 0.001595 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.27-17.14.58:961][440]LogSlate: Window 'BP_Banana' being destroyed
+[2021.01.27-17.14.59:009][440]LogSlate: Window 'BP_Banana' being destroyed
+[2021.01.27-17.14.59:009][440]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-17.14.59:009][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.15.16:131][934]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana
+[2021.01.27-17.15.26:309][195]BlueprintLog: New page: Compile BP_Banana
+[2021.01.27-17.15.26:387][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2021.01.27-17.17.52:889][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2021.01.27-17.17.53:437][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.01.27-17.17.53:600][216]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/TutorialMap4E9BFAD44AAD6E74263FFDAF68E0099D.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Maps/TutorialMap.umap'
+[2021.01.27-17.17.53:658][216]LogFileHelpers: Saving map 'TutorialMap' took 0.745
+[2021.01.27-17.17.53:693][216]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/TutorialMap_BuiltData4C6291CB40CC3A6879FADB9B14B5B647.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Maps/TutorialMap_BuiltData.uasset'
+[2021.01.27-17.17.53:780][216]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/BP_Banana4523C69143798423CB3610A612629ECD.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Blueprints/BP_Banana.uasset'
+[2021.01.27-17.17.53:803][216]LogSavePackage: Moving 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Saved/TutorialMap_BuiltData0D219F56411CFA35682973A3CA8C10EE.tmp' to 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Maps/TutorialMap_BuiltData.uasset'
+[2021.01.27-17.17.53:833][216]AssetCheck: New page: Asset Save: multiple assets
+[2021.01.27-17.17.53:833][216]LogContentValidation: Display: Validating World /Game/BananaCollector/Maps/TutorialMap.TutorialMap
+[2021.01.27-17.17.53:833][216]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/BananaCollector/Maps/TutorialMap_BuiltData.TutorialMap_BuiltData
+[2021.01.27-17.17.53:833][216]LogContentValidation: Display: Validating Blueprint /Game/BananaCollector/Blueprints/BP_Banana.BP_Banana
+[2021.01.27-17.25.19:946][846]LogSlate: Window 'BP_Banana' being destroyed
+[2021.01.27-17.25.19:995][846]LogSlate: Window 'BP_Banana' being destroyed
+[2021.01.27-17.25.19:996][846]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-17.25.19:996][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.25.22:954][936]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-17.25.22:981][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-17.25.22:983][936]PIE: New page: PIE session: TutorialMap (Jan 27, 2021, 5:25:22 AM)
+[2021.01.27-17.25.22:984][936]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2021.01.27-17.25.22:992][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008197s)
+[2021.01.27-17.25.22:996][936]LogAIModule: Creating AISystem for world TutorialMap
+[2021.01.27-17.25.22:997][936]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017E952E1A00), frame # 14936
+[2021.01.27-17.25.22:997][936]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017EA05607C0), frame # 14936
+[2021.01.27-17.25.22:997][936]LogPlayLevel: PIE: World Init took: (0.005199s)
+[2021.01.27-17.25.22:997][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.013629s)
+[2021.01.27-17.25.23:028][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.01.27-17.25.23:030][936]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-17.25.23:030][936]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-17.25.23:030][936]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-17.25.23:030][936]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-17.25.23:030][936]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-17.25.23:030][936]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-17.25.23:030][936]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-17.25.23:031][936]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-17.25.23:031][936]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-17.25.23:031][936]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-17.25.23:036][936]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-17.25.23:037][936]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-17.25.23:054][936]LogAudioMixer: Display: Using Audio Device NS-32D20SNA14 (Intel(R) Display Audio)
+[2021.01.27-17.25.23:054][936]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-17.25.23:054][936]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-17.25.23:054][936]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-17.25.23:054][936]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-17.25.23:073][936]LogInit: FAudioDevice initialized.
+[2021.01.27-17.25.23:084][936]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.01.27-17.25.23:089][936]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2021.01.27-11.25.23
+[2021.01.27-17.25.23:090][936]LogWorld: Bringing up level for play took: 0.002639
+[2021.01.27-17.25.23:092][936]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.01.27-17.25.23:097][936]PIE: Server logged in
+[2021.01.27-17.25.23:097][936]PIE: Play in editor total start time 0.124 seconds.
+[2021.01.27-17.25.28:885][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-17.25.28:885][104]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2021.01.27-17.25.28:886][104]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-17.25.28:886][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.25.28:937][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-17.25.28:940][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.25.28:958][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-17.25.28:980][104]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017EA05607C0), frame # 15104
+[2021.01.27-17.25.28:980][104]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017E952E1A00), frame # 15104
+[2021.01.27-17.25.28:982][104]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.01.27-17.25.29:013][105]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.01.27-17.29.11:933][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2021.01.27-17.29.57:935][ 78]LogSlate: Window 'Delete Assets' being destroyed
+[2021.01.27-17.29.58:178][ 78]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BananaCollector/Meshes/MrBANAGRABBER3_PhysicsAsset.MrBANAGRABBER3_PhysicsAsset
+[2021.01.27-17.29.59:908][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.01.27-17.29.59:927][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.01.27-17.29.59:942][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.01.27-17.30.05:972][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.01.27-17.30.08:748][193]LogSlate: Window 'Delete Assets' being destroyed
+[2021.01.27-17.30.08:896][193]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BananaCollector/Meshes/MrBANAGRABBER3_Skeleton.MrBANAGRABBER3_Skeleton
+[2021.01.27-17.30.09:228][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.01.27-17.30.09:245][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2021.01.27-17.30.09:262][193]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.01.27-17.30.24:724][371]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/BananaCollector/Meshes/MrBANAGRABBER4.MrBANAGRABBER4
+[2021.01.27-17.30.25:216][371]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-17.30.25:216][371]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.30.25:782][372]LogRenderer: Reallocating scene render targets to support 1460x892 Format 10 NumSamples 1 (Frame:1).
+[2021.01.27-17.30.32:256][436]LogSlate: Window 'MrBANAGRABBER4' being destroyed
+[2021.01.27-17.30.32:379][436]LogSlate: Window 'MrBANAGRABBER4' being destroyed
+[2021.01.27-17.30.32:405][436]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-17.30.32:405][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.30.36:872][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_PhysicsAsset': Can't find file.
+[2021.01.27-17.30.36:872][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_PhysicsAsset': Can't find file.
+[2021.01.27-17.30.36:873][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_Skeleton': Can't find file.
+[2021.01.27-17.30.36:873][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_Skeleton': Can't find file.
+[2021.01.27-17.30.36:873][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_PhysicsAsset': Can't find file.
+[2021.01.27-17.30.36:873][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_PhysicsAsset': Can't find file.
+[2021.01.27-17.30.36:873][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_Skeleton': Can't find file.
+[2021.01.27-17.30.36:873][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_Skeleton': Can't find file.
+[2021.01.27-17.30.36:874][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_Skeleton': Can't find file.
+[2021.01.27-17.30.36:874][491]LoadErrors: Failed to load /Game/BananaCollector/Meshes/MrBANAGRABBER3_Skeleton.MrBANAGRABBER3_Skeleton Referenced by MrBANAGRABBER3
+[2021.01.27-17.30.36:874][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_Skeleton': Can't find file.
+[2021.01.27-17.30.36:875][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_PhysicsAsset': Can't find file.
+[2021.01.27-17.30.36:875][491]LoadErrors: Failed to load /Game/BananaCollector/Meshes/MrBANAGRABBER3_PhysicsAsset.MrBANAGRABBER3_PhysicsAsset Referenced by MrBANAGRABBER3
+[2021.01.27-17.30.36:877][491]LogLinker: Warning: While loading 'E:/Mr. Banana Grabber/BananaCollectorStarter5/BananaCollectorStarter 4.25/Content/BananaCollector/Meshes/MrBANAGRABBER3.uasset' failed to load '/Game/BananaCollector/Meshes/MrBANAGRABBER3_PhysicsAsset': Can't find file.
+[2021.01.27-17.30.44:666][491]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.30.44:670][491]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.30.44:670][491]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.30.44:713][492]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.30.53:803][743]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.30.54:325][748]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.30.54:647][753]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.30.55:069][758]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.30.55:482][763]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.30.55:889][768]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.30.56:339][774]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.30.56:750][779]LogAnimation: Warning: SkeletalMesh MrBANAGRABBER3 has no skeleton. This needs to fixed before an animation can be set
+[2021.01.27-17.31.00:833][880]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.01.27-17.31.02:948][880]LogSlate: Window 'Delete Assets' being destroyed
+[2021.01.27-17.31.03:686][880]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.01.27-17.31.03:729][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2021.01.27-17.31.03:743][880]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2021.01.27-17.31.06:241][944]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.27-17.31.06:264][944]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.27-17.31.06:270][944]PIE: New page: PIE session: TutorialMap (Jan 27, 2021, 5:31:06 AM)
+[2021.01.27-17.31.06:271][944]LogPlayLevel: Creating play world package: /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2021.01.27-17.31.06:282][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010914s)
+[2021.01.27-17.31.06:289][944]LogAIModule: Creating AISystem for world TutorialMap
+[2021.01.27-17.31.06:290][944]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017EA6E3E200), frame # 16944
+[2021.01.27-17.31.06:291][944]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017E955CB4C0), frame # 16944
+[2021.01.27-17.31.06:292][944]LogPlayLevel: PIE: World Init took: (0.009007s)
+[2021.01.27-17.31.06:292][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BananaCollector/Maps/TutorialMap.TutorialMap to /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap (0.021221s)
+[2021.01.27-17.31.06:313][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2021.01.27-17.31.06:316][944]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.27-17.31.06:317][944]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.27-17.31.06:317][944]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.27-17.31.06:317][944]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.27-17.31.06:317][944]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.27-17.31.06:317][944]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.27-17.31.06:317][944]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.27-17.31.06:317][944]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.27-17.31.06:318][944]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.27-17.31.06:318][944]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.27-17.31.06:323][944]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.27-17.31.06:323][944]LogAudioMixer: Display: 1: FrontRight
+[2021.01.27-17.31.06:336][944]LogAudioMixer: Display: Using Audio Device NS-32D20SNA14 (Intel(R) Display Audio)
+[2021.01.27-17.31.06:336][944]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.27-17.31.06:336][944]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.27-17.31.06:336][944]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.27-17.31.06:337][944]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.27-17.31.06:349][944]LogInit: FAudioDevice initialized.
+[2021.01.27-17.31.06:365][944]LogLoad: Game class is 'GM_Tutorial_C'
+[2021.01.27-17.31.06:371][944]LogWorld: Bringing World /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap.TutorialMap up for play (max tick rate 60) at 2021.01.27-11.31.06
+[2021.01.27-17.31.06:372][944]LogWorld: Bringing up level for play took: 0.003487
+[2021.01.27-17.31.06:373][944]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.01.27-17.31.06:385][944]PIE: Server logged in
+[2021.01.27-17.31.06:385][944]PIE: Play in editor total start time 0.125 seconds.
+[2021.01.27-17.31.12:623][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-17.31.12:623][124]LogWorld: BeginTearingDown for /Game/BananaCollector/Maps/UEDPIE_0_TutorialMap
+[2021.01.27-17.31.12:626][124]LogWorld: UWorld::CleanupWorld for TutorialMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.27-17.31.12:626][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.31.12:659][124]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.27-17.31.12:661][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.27-17.31.12:695][124]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.27-17.31.12:698][124]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017E955CB4C0), frame # 17124
+[2021.01.27-17.31.12:698][124]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017EA6E3E200), frame # 17124
+[2021.01.27-17.31.12:699][124]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2021.01.27-17.31.12:733][125]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.01.27-17.31.27:909][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
