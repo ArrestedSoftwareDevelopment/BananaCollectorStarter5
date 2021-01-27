@@ -17,6 +17,7 @@ Theme music.
 Jump function.
 Obstacles that make you lose bananas.
 Camera follows player.
+Integrate the stair car. (And hop-ons!)
 
 Planned level ideas:
 
